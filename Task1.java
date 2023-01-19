@@ -30,10 +30,7 @@ public class Task1 {
         // в противном случае возвращает false.
 
         public static boolean profitableGamble ( double prob, double prize, double pay){
-            if (prob*prize>pay)
-                return true;
-            else
-                return false;
+            return prob*prize>pay;
         }
 
         //5
@@ -51,7 +48,7 @@ public class Task1 {
             else if (a*b == N)
                 return "multiply";
             else if (a/b == N)
-                return "davide";
+                return "divide";
             else return "none";
         }
 
@@ -59,7 +56,7 @@ public class Task1 {
         //Создайте функцию, которая возвращает значение ASCII переданного символа.
 
         public static int ctoa(char a) {
-            return (int) a;
+            return a;
         }
 
         // 7
